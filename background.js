@@ -20,15 +20,19 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
 chrome.webRequest.onBeforeRequest.addListener(function(details) {
 	try{
+		chrome.extension.getBackgroundPage().console.log(details.url)
 		if (localStorage.on == '1') {
-			if (details.url.search("i_fix")>-1){
-			} else 
+			if(details.url.startsWith("https://im4") || !details.url.endsWith(".gif")){
+				return {cancel: false}
+			}else{
 				return {redirectUrl: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg=="};
+			}
 		}
+			
 	} catch(err){
-		console.log("e: "+err);
+		chrome.extension.getBackgroundPage().console.log("e: "+err);
 	}
-}, {urls: ["http://*/*.gif", "https://*/*.gif"], types: ["image", "object"]}, ["blocking"]);
+}, {urls: ["<all_urls>"], types: ["image", "object"]}, ["blocking"]);
 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 	if (localStorage.on == '1') {
