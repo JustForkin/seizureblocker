@@ -28,7 +28,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 	} catch(err){
 		console.log("e: "+err);
 	}
-}, {urls: ["http://*/*", "https://*/*"], types: ["image", "object"]}, ["blocking"]);
+}, {urls: ["http://*/*.gif", "https://*/*.gif"], types: ["image", "object"]}, ["blocking"]);
 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 	if (localStorage.on == '1') {

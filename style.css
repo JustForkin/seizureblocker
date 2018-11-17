@@ -2,7 +2,7 @@
 	background-image:url('chrome-extension://__MSG_@@extension_id__/reload.png');
     background-repeat: no-repeat;
     background-position: center center;
-	opacity:0;
+	opacity:1;
 }
 .needtoloadimagestyle:hover{
 	opacity: 1;

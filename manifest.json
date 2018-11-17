@@ -24,7 +24,7 @@
    "manifest_version": 2,
    "name": "Seizure GIF Blocker",
    "short_name": "Seizure Blocker",
-   "permissions": [ "storage", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "permissions": [ "storage", "webRequest", "webRequestBlocking", "<all_urls>" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "0.1.1", 
    "web_accessible_resources":[
