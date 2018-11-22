@@ -28,7 +28,7 @@ A chrome extension that analyzes GIFs in real time and if they are dangerous, di
 
 # What I have built so far
 
-So far, I have made the chrome extension slow down all .gif files to 3 frames per second
+So far, I have made the chrome extension slow down all .gif files to 3 frames per second. The reason behind this was that I was started this idea in a '24 hour startup challenge' so my time was very, very limited (https://24hrstartup.com/products/epilepsyblocker)
 
 # What makes a GIF, or any content on a website dangerous?
 
