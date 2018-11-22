@@ -14,6 +14,10 @@ This is a chrome extension that helps people with photosensitive epilepsy browse
 
 After following the installation instructions and changing things, open a pull request
 
+# Join the private Slack group
+
+You can join this Slack group by clicking on this invite link (https://join.slack.com/t/seizureblocker/shared_invite/enQtNDg2MTc4ODQzMTcwLWIxYzYxODIzNjhjZjY2MmQzNzBlN2JiODUzN2VlZTQxOWZiMmMyYzhiYjM1ZWJkYzk1OWEyMjhlNDdhZmJkMmE)
+
 # Back Story
 
 My girlfriend has photosensitive epilepsy. One day I was casually scrolling through Twitter and found this article (https://www.telegraph.co.uk/technology/2017/03/22/gif-counts-deadly-weapon-seizure-inducing-tweet-case-grand/) about a person who had a seizure from a GIF on Twitter. I checked to see if there is anything out there that can keep epileptic people safe but found nothing. So I decided to create it myself.
