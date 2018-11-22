@@ -10,20 +10,14 @@
       "run_at": "document_end"
    } ],
    "browser_action": {
-      "default_icon": {
-         "19": "images/icon19-disabled.png"
-      },
-      "default_title": "No Image"
+      "default_icon": "images/icon38.png",
+      "default_title": "Seizure GIF Blocker"
    },
    "description": "View GIFs safely without the risk of having an epileptic seizure",
-   "icons": {
-      "128": "images/icon128.png",
-      "16": "images/icon16.png",
-      "48": "images/icon48.png"
-   },
+   "icon": "images/icon38.png",
    "manifest_version": 2,
    "name": "Seizure GIF Blocker",
-   "short_name": "Seizure Blocker",
+   "short_name": "Seizure GIF Blocker",
    "permissions": [ "storage", "webRequest", "webRequestBlocking", "<all_urls>" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "0.1.1", 
